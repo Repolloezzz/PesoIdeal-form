@@ -1,0 +1,60 @@
+*{
+    font-family: 'Patrick Hand', cursive;
+}
+.inicio{
+    background-color: orange;
+    border-radius: 20px;
+}
+.inicio img{
+    float: left;
+    border: 3px solid rgb(186, 108, 0);
+    background-color: orange;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.inicio h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+}
+.formulario{
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.45);
+}
+label{
+    font-size: 30px;
+}
+input[type="number"], select{
+    background-color: rgb(223, 223, 223);
+    font-size: 15px;
+    font-family: Arial;
+    width: 40%;
+    height: 50px;
+    margin: 5px;
+    border: 0;
+}
+input[type="submit"], input[type="reset"]{
+    background-color: orange;
+    border: 0;
+    font-size: 30px;
+    color: white;
+    margin: 5px;
+}
+@media only screen and (max-width: 800px){
+    .inicio{
+        font-size: 10px;
+    }
+    label{
+        font-size: 15px;
+    }
+    input[type="number"], select{
+        font-size: 10px;
+        width: 80%;
+        height: 40px;
+    }
+}

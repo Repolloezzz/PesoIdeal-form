@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peso ideal</title>
+    <!--logo y estilos-->
+    <link rel="icon" href="32x32i.png">
+    <link rel="stylesheet" href="estilo.css">
+    <!--estilo de letra-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <div class="inicio">
+            <img src="32x32i.png" alt="">
+            <h1>PESO IDEAL</h1>
+        </div>
+    </div>
+    <!--Formulario-->
+    <form>
+        <div class="formulario">
+            <div>
+                <label>Altura (en centimetros)</label><br>
+                <input type="number" step="any" maxlength="10" min="100" max="250" required placeholder="ej. 170">
+            </div>
+            <div>
+                <label>Edad</label><br>
+                <select name="edad">
+                    <option value="20-30">20-30 años</option>
+                    <option value="40-50">40-50 años</option>
+                    <option value="50--">más de 50</option>
+                </select>
+            </div>
+            <div>
+                <label>Sexo</label><br>
+                <select name="sexo">
+                    <option value="fm">Femenino</option>
+                    <option value="ms">Masculino</option>
+                </select>
+            </div>
+            <div>
+                <label>Circunferencia de la muñeca de la mano derecha</label><br>
+                <input type="number" step="any" maxlength="5" min="10" required placeholder="ej. 10">
+            </div>
+            <div>
+                <input type="submit" value="Calcular">
+                <input type="reset" value="Borrar">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
